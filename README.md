@@ -1,4 +1,4 @@
-# YT Shortless
+# YT Shortless 1.1
 
 YT Shortless aims to improve your YouTube homepage by hiding the Shorts section & guide tab. 
 

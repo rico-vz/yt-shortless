@@ -3,7 +3,7 @@
   "author": "Rico",
   "manifest_version": 2,
   "name": "YT Shortless",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/rico-vz/yt-shortless",
 
   "icons": {
@@ -14,7 +14,8 @@
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
-      "js": ["hideShorts.js"]
+      "js": ["hideShorts.js"],
+      "run_at": "document_idle"
     }
   ]
 }
